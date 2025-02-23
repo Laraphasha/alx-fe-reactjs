@@ -10,10 +10,10 @@ function Counter() {
     <counter style={{border: '1px solid gray', padding: '10px', margin: '10px'}}>
       <div>
         <button onClick={() => {setCount(countPlus)}}>
-          Count+
+          Increment
         </button>
         <button onClick={() => {setCount(countMinus)}}>
-          Count-
+          Decrement
         </button>
         <button onClick={() => {setCount(0)}}>
           Reset
