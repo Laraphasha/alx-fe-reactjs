@@ -5,10 +5,10 @@ import AddRecipeForm from './components/AddRecipeForm'
 function App() {
 
   return (
-    <>
+    <App>
       <RecipeList/>
       <AddRecipeForm/>
-    </>
+    </App>
   )
 }
 
