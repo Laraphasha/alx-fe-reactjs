@@ -3,72 +3,293 @@
     "id": 1,
     "title": "Spaghetti Carbonara",
     "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
-    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.allrecipes.com%2Frecipe%2F11973%2Fspaghetti-carbonara-ii%2F&psig=AOvVaw1-Kd3101_H2rFhzlfQdM0h&ust=1742844078782000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKjIuKT2oIwDFQAAAAAdAAAAABAE"
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.allrecipes.com%2Frecipe%2F11973%2Fspaghetti-carbonara-ii%2F&psig=AOvVaw1-Kd3101_H2rFhzlfQdM0h&ust=1742844078782000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKjIuKT2oIwDFQAAAAAdAAAAABAE",
+    "ingredients": [
+      "200g spaghetti",
+      "100g pancetta",
+      "2 large eggs",
+      "50g pecorino cheese",
+      "50g parmesan cheese",
+      "Black pepper",
+      "Salt"
+    ],
+    "instructions": [
+      "Boil the pasta in salted water until al dente.",
+      "Fry the pancetta in a pan until crispy.",
+      "Whisk eggs with cheese and black pepper.",
+      "Combine hot pasta with pancetta and mix with egg mixture.",
+      "Serve immediately with extra cheese on top."
+    ]
   },
   {
     "id": 2,
     "title": "Chicken Tikka Masala",
     "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
-    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.seriouseats.com%2Fchicken-tikka-masala-for-the-grill-recipe&psig=AOvVaw1xAhNy52R_GHFqvjKcT4QG&ust=1742844150017000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNC378X2oIwDFQAAAAAdAAAAABAE"
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.seriouseats.com%2Fchicken-tikka-masala-for-the-grill-recipe&psig=AOvVaw1xAhNy52R_GHFqvjKcT4QG&ust=1742844150017000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNC378X2oIwDFQAAAAAdAAAAABAE",
+    "ingredients": [
+      "500g chicken breast",
+      "1 cup yogurt",
+      "2 tbsp tikka masala spice mix",
+      "1 onion, chopped",
+      "2 garlic cloves, minced",
+      "1 cup tomato puree",
+      "1/2 cup heavy cream"
+    ],
+    "instructions": [
+      "Marinate chicken in yogurt and spices for at least 1 hour.",
+      "Grill chicken until charred.",
+      "Sauté onions and garlic in a pan.",
+      "Add tomato puree and cook until thick.",
+      "Stir in grilled chicken and heavy cream.",
+      "Simmer for 5 minutes and serve with rice."
+    ]
   },
   {
     "id": 3,
     "title": "Beef Stroganoff",
     "summary": "A Russian dish of sautéed beef served in a creamy mushroom sauce over egg noodles or rice.",
-    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.allrecipes.com%2Frecipe%2F25202%2Fbeef-stroganoff-iii%2F&psig=AOvVaw070lKe-VsSoGxizXGdhVPq&ust=1742844190361000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLDM6d32oIwDFQAAAAAdAAAAABAE"
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.allrecipes.com%2Frecipe%2F25202%2Fbeef-stroganoff-iii%2F&psig=AOvVaw070lKe-VsSoGxizXGdhVPq&ust=1742844190361000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLDM6d32oIwDFQAAAAAdAAAAABAE",
+    "ingredients": [
+      "400g beef sirloin, sliced",
+      "1 onion, chopped",
+      "2 cloves garlic, minced",
+      "200g mushrooms, sliced",
+      "1 cup sour cream",
+      "1 cup beef broth",
+      "200g egg noodles"
+    ],
+    "instructions": [
+      "Cook egg noodles according to package instructions.",
+      "Sauté onion, garlic, and mushrooms until soft.",
+      "Add beef slices and cook until browned.",
+      "Pour in beef broth and simmer for 10 minutes.",
+      "Stir in sour cream and serve over egg noodles."
+    ]
   },
   {
     "id": 4,
     "title": "Sushi Rolls",
     "summary": "A Japanese dish consisting of vinegared rice, seafood, and vegetables rolled in seaweed.",
-    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kikkoman.eu%2Frecipes%2Fdetail%2Fspicy-tuna-and-salmon-rolls&psig=AOvVaw1Yeyc7cxp1dvT93WiyrXS4&ust=1742844246575000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJCHhPX2oIwDFQAAAAAdAAAAABAE"
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kikkoman.eu%2Frecipes%2Fdetail%2Fspicy-tuna-and-salmon-rolls&psig=AOvVaw1Yeyc7cxp1dvT93WiyrXS4&ust=1742844246575000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJCHhPX2oIwDFQAAAAAdAAAAABAE",
+    "ingredients": [
+      "2 cups sushi rice",
+      "3 tbsp rice vinegar",
+      "Nori seaweed sheets",
+      "100g fresh salmon or tuna",
+      "1 cucumber, julienned",
+      "1 avocado, sliced",
+      "Soy sauce and wasabi"
+    ],
+    "instructions": [
+      "Cook sushi rice and season with rice vinegar.",
+      "Lay nori sheet on a sushi mat and spread rice evenly.",
+      "Place fish, cucumber, and avocado in a row.",
+      "Roll tightly using the mat and seal the edge with water.",
+      "Cut into bite-sized pieces and serve with soy sauce and wasabi."
+    ]
   },
   {
     "id": 5,
     "title": "Margherita Pizza",
     "summary": "A simple Italian pizza topped with tomatoes, mozzarella cheese, and fresh basil.",
-    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.abeautifulplate.com%2Fthe-best-homemade-margherita-pizza%2F&psig=AOvVaw3ig-vr4_BURmNx_XXSJAVF&ust=1742844295210000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJiZpL34oIwDFQAAAAAdAAAAABAE"
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.abeautifulplate.com%2Fthe-best-homemade-margherita-pizza%2F&psig=AOvVaw3ig-vr4_BURmNx_XXSJAVF&ust=1742844295210000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJiZpL34oIwDFQAAAAAdAAAAABAE",
+    "ingredients": [
+      "2 cups all-purpose flour",
+      "1/2 cup warm water",
+      "1 tsp yeast",
+      "1 tsp salt",
+      "1/2 cup tomato sauce",
+      "100g fresh mozzarella",
+      "Fresh basil leaves"
+    ],
+    "instructions": [
+      "Mix flour, yeast, salt, and warm water to form dough and let rise for 1 hour.",
+      "Roll out dough into a thin crust.",
+      "Spread tomato sauce and add mozzarella slices.",
+      "Bake at 220°C (425°F) for 10-15 minutes.",
+      "Top with fresh basil before serving."
+    ]
   },
   {
     "id": 6,
     "title": "Paella",
     "summary": "A traditional Spanish rice dish with seafood, saffron, and a variety of vegetables.",
-    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftastesbetterfromscratch.com%2Fpaella%2F&psig=AOvVaw0NALMUCa15aO7Ef8-nJ-rJ&ust=1742844706691000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPCx9c_4oIwDFQAAAAAdAAAAABAE"
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftastesbetterfromscratch.com%2Fpaella%2F&psig=AOvVaw0NALMUCa15aO7Ef8-nJ-rJ&ust=1742844706691000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPCx9c_4oIwDFQAAAAAdAAAAABAE",
+    "ingredients": [
+      "2 cups Arborio rice",
+      "1/2 tsp saffron threads",
+      "1 onion, chopped",
+      "2 garlic cloves, minced",
+      "1 red bell pepper, sliced",
+      "1 cup diced tomatoes",
+      "500g mixed seafood (shrimp, mussels, squid)",
+      "4 cups chicken broth",
+      "1 tsp paprika",
+      "Olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Heat olive oil in a large pan and sauté onions, garlic, and bell pepper.",
+      "Add diced tomatoes, paprika, and saffron threads.",
+      "Stir in rice and coat with the mixture.",
+      "Pour in chicken broth and let simmer for 15 minutes.",
+      "Add seafood and cook until mussels open and shrimp turn pink.",
+      "Season with salt and pepper, then serve hot."
+    ]
   },
   {
     "id": 7,
     "title": "Tacos Al Pastor",
     "summary": "Mexican tacos made with marinated pork, pineapple, and fresh cilantro on corn tortillas.",
-    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fiamafoodblog.com%2Fal-pastor%2F&psig=AOvVaw1UuAJ0KlX3b3yzZKVQLtvO&ust=1742844739808000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMD8z-P4oIwDFQAAAAAdAAAAABAE"
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fiamafoodblog.com%2Fal-pastor%2F&psig=AOvVaw1UuAJ0KlX3b3yzZKVQLtvO&ust=1742844739808000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMD8z-P4oIwDFQAAAAAdAAAAABAE",
+    "ingredients": [
+      "500g pork shoulder, thinly sliced",
+      "1/2 cup pineapple juice",
+      "2 tbsp achiote paste",
+      "1 tsp cumin",
+      "1 tsp paprika",
+      "1 onion, chopped",
+      "Corn tortillas",
+      "Fresh cilantro and lime wedges"
+    ],
+    "instructions": [
+      "Marinate pork with pineapple juice, achiote, cumin, and paprika for 2 hours.",
+      "Grill pork until caramelized and crispy.",
+      "Warm corn tortillas on a dry pan.",
+      "Fill tortillas with pork, chopped onion, and cilantro.",
+      "Serve with lime wedges."
+    ]
   },
   {
     "id": 8,
     "title": "Ratatouille",
     "summary": "A French vegetable stew made with tomatoes, zucchini, eggplant, and bell peppers.",
-    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.howtocook.recipes%2Fhomemade-ratatouille-recipe%2F&psig=AOvVaw0ilFjsvcy9ZA0D-uMHbtkW&ust=1742844785459000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJiE9_f4oIwDFQAAAAAdAAAAABAE"
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.howtocook.recipes%2Fhomemade-ratatouille-recipe%2F&psig=AOvVaw0ilFjsvcy9ZA0D-uMHbtkW&ust=1742844785459000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJiE9_f4oIwDFQAAAAAdAAAAABAE",
+    "ingredients": [
+      "1 eggplant, diced",
+      "1 zucchini, sliced",
+      "1 red bell pepper, chopped",
+      "1 yellow bell pepper, chopped",
+      "2 tomatoes, diced",
+      "1 onion, sliced",
+      "2 garlic cloves, minced",
+      "1/4 cup olive oil",
+      "1 tsp dried thyme",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Heat olive oil in a pan and sauté onions and garlic.",
+      "Add eggplant and cook until slightly softened.",
+      "Stir in bell peppers, zucchini, and tomatoes.",
+      "Season with thyme, salt, and pepper.",
+      "Cover and let simmer for 30 minutes, stirring occasionally.",
+      "Serve warm as a side or main dish."
+    ]
   },
   {
     "id": 9,
     "title": "Butter Chicken",
     "summary": "A rich and creamy Indian dish with tender chicken cooked in a spiced tomato sauce.",
-    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcooking.nytimes.com%2Frecipes%2F1016754-butter-chicken&psig=AOvVaw3ybubgWwHAkz9m-g8zExLy&ust=1742844831426000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLD6i435oIwDFQAAAAAdAAAAABAE"
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcooking.nytimes.com%2Frecipes%2F1016754-butter-chicken&psig=AOvVaw3ybubgWwHAkz9m-g8zExLy&ust=1742844831426000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLD6i435oIwDFQAAAAAdAAAAABAE",
+    "ingredients": [
+      "500g chicken breast, cubed",
+      "1 cup yogurt",
+      "2 tbsp garam masala",
+      "1 tbsp turmeric",
+      "2 tbsp butter",
+      "1 onion, chopped",
+      "2 garlic cloves, minced",
+      "1 cup tomato puree",
+      "1/2 cup heavy cream",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Marinate chicken with yogurt, garam masala, and turmeric for at least 1 hour.",
+      "Cook chicken in a pan until golden brown, then set aside.",
+      "In the same pan, melt butter and sauté onions and garlic.",
+      "Add tomato puree and let simmer for 10 minutes.",
+      "Return chicken to the pan and mix well.",
+      "Stir in heavy cream, season with salt and pepper, and simmer for 5 minutes.",
+      "Serve with rice or naan."
+    ]
   },
   {
     "id": 10,
     "title": "Pho",
     "summary": "A Vietnamese noodle soup consisting of broth, rice noodles, herbs, and meat.",
-    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.onceuponachef.com%2Frecipes%2Fquick-beef-pho.html&psig=AOvVaw18qC3IMzsuXxSQIeQ_R0BY&ust=1742844867593000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCIj78Jv5oIwDFQAAAAAdAAAAABAE"
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.onceuponachef.com%2Frecipes%2Fquick-beef-pho.html&psig=AOvVaw18qC3IMzsuXxSQIeQ_R0BY&ust=1742844867593000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCIj78Jv5oIwDFQAAAAAdAAAAABAE",
+    "ingredients": [
+      "500g beef bones",
+      "1 onion, charred",
+      "1 ginger root, sliced",
+      "2 star anise",
+      "1 cinnamon stick",
+      "2 cloves",
+      "1 tbsp fish sauce",
+      "200g rice noodles",
+      "200g beef sirloin, thinly sliced",
+      "Fresh basil, bean sprouts, and lime wedges"
+    ],
+    "instructions": [
+      "Simmer beef bones in water for 4 hours to create broth.",
+      "Add charred onion, ginger, star anise, cinnamon, and cloves.",
+      "Strain the broth and season with fish sauce.",
+      "Cook rice noodles separately and place in bowls.",
+      "Top with raw beef slices and pour hot broth over them.",
+      "Garnish with fresh basil, bean sprouts, and lime wedges before serving."
+    ]
   },
   {
     "id": 11,
     "title": "Moussaka",
     "summary": "A Greek casserole made with layers of eggplant, ground meat, and béchamel sauce.",
-    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.recipetineats.com%2Fmoussaka-greek-eggplant-beef-bake%2F&psig=AOvVaw0YWzGoMW-BgVb45R_-y81G&ust=1742844897972000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLjz4a35oIwDFQAAAAAdAAAAABAE"
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.recipetineats.com%2Fmoussaka-greek-eggplant-beef-bake%2F&psig=AOvVaw0YWzGoMW-BgVb45R_-y81G&ust=1742844897972000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLjz4a35oIwDFQAAAAAdAAAAABAE",
+    "ingredients": [
+      "2 large eggplants, sliced",
+      "500g ground beef or lamb",
+      "1 onion, chopped",
+      "2 garlic cloves, minced",
+      "1 cup tomato sauce",
+      "1 tsp cinnamon",
+      "2 cups béchamel sauce",
+      "1/2 cup grated Parmesan cheese",
+      "Olive oil",
+      "Salt and pepper"
+    ],
+    "instructions": [
+      "Brush eggplant slices with olive oil and roast until soft.",
+      "Sauté onions and garlic, then add ground beef and cook until browned.",
+      "Stir in tomato sauce and cinnamon, and simmer for 15 minutes.",
+      "Layer eggplant and meat sauce in a baking dish.",
+      "Top with béchamel sauce and sprinkle with Parmesan cheese.",
+      "Bake at 180°C (350°F) for 30 minutes and let cool before serving."
+    ]
   },
   {
     "id": 12,
     "title": "Biryani",
     "summary": "A fragrant South Asian rice dish cooked with spices, meat, and sometimes vegetables.",
-    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.indianhealthyrecipes.com%2Fchicken-biryani-recipe%2F&psig=AOvVaw0d7VjEMNeo32GAQfXBws3n&ust=1742844932476000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPiw37z5oIwDFQAAAAAdAAAAABAE"
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.indianhealthyrecipes.com%2Fchicken-biryani-recipe%2F&psig=AOvVaw0d7VjEMNeo32GAQfXBws3n&ust=1742844932476000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPiw37z5oIwDFQAAAAAdAAAAABAE",
+    "ingredients": [
+      "2 cups basmati rice",
+      "500g chicken or lamb, cubed",
+      "1 onion, sliced",
+      "2 garlic cloves, minced",
+      "1 cup yogurt",
+      "2 tbsp biryani masala",
+      "1 tsp turmeric",
+      "1/2 tsp saffron, soaked in warm milk",
+      "4 cups chicken broth",
+      "Fresh cilantro and fried onions"
+    ],
+    "instructions": [
+      "Marinate meat with yogurt, biryani masala, and turmeric for at least 1 hour.",
+      "Sauté onions and garlic in a pan, then add marinated meat.",
+      "Cook until browned, then add chicken broth and let simmer.",
+      "Parboil basmati rice and layer it over the meat mixture.",
+      "Drizzle saffron-infused milk over the rice.",
+      "Cover and cook on low heat for 20 minutes.",
+      "Garnish with fresh cilantro and fried onions before serving."
+    ]
   }
 ]
