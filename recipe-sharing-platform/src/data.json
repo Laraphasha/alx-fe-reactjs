@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Spaghetti Carbonara",
+    "summary": "A classic Italian pasta dish with eggs, cheese, bacon, and black pepper.",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.allrecipes.com%2Frecipe%2F11973%2Fspaghetti-carbonara-ii%2F&psig=AOvVaw1-Kd3101_H2rFhzlfQdM0h&ust=1742844078782000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCKjIuKT2oIwDFQAAAAAdAAAAABAE"
+  },
+  {
+    "id": 2,
+    "title": "Chicken Tikka Masala",
+    "summary": "Chunks of grilled chicken (tikka) cooked in a smooth buttery & creamy tomato based gravy.",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.seriouseats.com%2Fchicken-tikka-masala-for-the-grill-recipe&psig=AOvVaw1xAhNy52R_GHFqvjKcT4QG&ust=1742844150017000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNC378X2oIwDFQAAAAAdAAAAABAE"
+  },
+  {
+    "id": 3,
+    "title": "Beef Stroganoff",
+    "summary": "A Russian dish of sautéed beef served in a creamy mushroom sauce over egg noodles or rice.",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.allrecipes.com%2Frecipe%2F25202%2Fbeef-stroganoff-iii%2F&psig=AOvVaw070lKe-VsSoGxizXGdhVPq&ust=1742844190361000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLDM6d32oIwDFQAAAAAdAAAAABAE"
+  },
+  {
+    "id": 4,
+    "title": "Sushi Rolls",
+    "summary": "A Japanese dish consisting of vinegared rice, seafood, and vegetables rolled in seaweed.",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kikkoman.eu%2Frecipes%2Fdetail%2Fspicy-tuna-and-salmon-rolls&psig=AOvVaw1Yeyc7cxp1dvT93WiyrXS4&ust=1742844246575000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJCHhPX2oIwDFQAAAAAdAAAAABAE"
+  },
+  {
+    "id": 5,
+    "title": "Margherita Pizza",
+    "summary": "A simple Italian pizza topped with tomatoes, mozzarella cheese, and fresh basil.",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.abeautifulplate.com%2Fthe-best-homemade-margherita-pizza%2F&psig=AOvVaw3ig-vr4_BURmNx_XXSJAVF&ust=1742844295210000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJiZpL34oIwDFQAAAAAdAAAAABAE"
+  },
+  {
+    "id": 6,
+    "title": "Paella",
+    "summary": "A traditional Spanish rice dish with seafood, saffron, and a variety of vegetables.",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ftastesbetterfromscratch.com%2Fpaella%2F&psig=AOvVaw0NALMUCa15aO7Ef8-nJ-rJ&ust=1742844706691000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPCx9c_4oIwDFQAAAAAdAAAAABAE"
+  },
+  {
+    "id": 7,
+    "title": "Tacos Al Pastor",
+    "summary": "Mexican tacos made with marinated pork, pineapple, and fresh cilantro on corn tortillas.",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fiamafoodblog.com%2Fal-pastor%2F&psig=AOvVaw1UuAJ0KlX3b3yzZKVQLtvO&ust=1742844739808000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMD8z-P4oIwDFQAAAAAdAAAAABAE"
+  },
+  {
+    "id": 8,
+    "title": "Ratatouille",
+    "summary": "A French vegetable stew made with tomatoes, zucchini, eggplant, and bell peppers.",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.howtocook.recipes%2Fhomemade-ratatouille-recipe%2F&psig=AOvVaw0ilFjsvcy9ZA0D-uMHbtkW&ust=1742844785459000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJiE9_f4oIwDFQAAAAAdAAAAABAE"
+  },
+  {
+    "id": 9,
+    "title": "Butter Chicken",
+    "summary": "A rich and creamy Indian dish with tender chicken cooked in a spiced tomato sauce.",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcooking.nytimes.com%2Frecipes%2F1016754-butter-chicken&psig=AOvVaw3ybubgWwHAkz9m-g8zExLy&ust=1742844831426000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLD6i435oIwDFQAAAAAdAAAAABAE"
+  },
+  {
+    "id": 10,
+    "title": "Pho",
+    "summary": "A Vietnamese noodle soup consisting of broth, rice noodles, herbs, and meat.",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.onceuponachef.com%2Frecipes%2Fquick-beef-pho.html&psig=AOvVaw18qC3IMzsuXxSQIeQ_R0BY&ust=1742844867593000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCIj78Jv5oIwDFQAAAAAdAAAAABAE"
+  },
+  {
+    "id": 11,
+    "title": "Moussaka",
+    "summary": "A Greek casserole made with layers of eggplant, ground meat, and béchamel sauce.",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.recipetineats.com%2Fmoussaka-greek-eggplant-beef-bake%2F&psig=AOvVaw0YWzGoMW-BgVb45R_-y81G&ust=1742844897972000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLjz4a35oIwDFQAAAAAdAAAAABAE"
+  },
+  {
+    "id": 12,
+    "title": "Biryani",
+    "summary": "A fragrant South Asian rice dish cooked with spices, meat, and sometimes vegetables.",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.indianhealthyrecipes.com%2Fchicken-biryani-recipe%2F&psig=AOvVaw0d7VjEMNeo32GAQfXBws3n&ust=1742844932476000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPiw37z5oIwDFQAAAAAdAAAAABAE"
+  }
+]
