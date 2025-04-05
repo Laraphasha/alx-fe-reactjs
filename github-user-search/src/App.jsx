@@ -9,12 +9,12 @@ const App = () => {
 
   const handleSearch = async (username) => {
     setLoading(true);
-    setError(null);
+    setError(null); // Reset error before new search
     try {
       const userData = await fetchUserData(username);
-      setUser(userData);
+      setUser(userData); // Store the fetched user data
     } catch (error) {
-      setError(error.message);
+      setError("Looks like we can't find the user"); // Error message
     } finally {
       setLoading(false);
     }
@@ -24,8 +24,10 @@ const App = () => {
     <div className="container mx-auto p-4">
       <h1 className="text-3xl font-bold text-center mb-4">GitHub User Search</h1>
       <Search onSearch={handleSearch} />
-      {loading && <p className="text-center">Loading...</p>}
-      {error && <p className="text-center text-red-500">{error}</p>}
+      
+      {loading && <p className="text-center">Loading...</p>} {/* Loading state */}
+      {error && <p className="text-center text-red-500">{error}</p>} {/* Error message */}
+      
       {user && !loading && !error && (
         <div className="text-center mt-4">
           <img src={user.avatar_url} alt={user.login} className="w-24 h-24 rounded-full mx-auto" />
