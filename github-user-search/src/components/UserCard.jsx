@@ -6,7 +6,8 @@ const UserCard = ({ user }) => {
         alt={user.login}
         className="w-20 h-20 rounded-full mb-2"
       />
-      <h2 className="font-semibold text-lg">{user.login}</h2>
+      <h2 className="font-semibold text-lg">{user.login || user.name}</h2>
+      <p>{user.bio}</p>
       <a
         href={user.html_url}
         target="_blank"
