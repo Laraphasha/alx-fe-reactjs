@@ -1,34 +1,28 @@
-import { useState } from "react";
-import { fetchUserData } from "../services/githubService";
+import React, { useState } from 'react';
 
-const SearchBar = ({ setUser}) => {
-  const [username, setUsername] = useState("");
+const Search = ({ onSearch }) => {
+  const [query, setQuery] = useState('');
 
-  const handleSearch = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    if (!username) return;
-
-    const results = await fetchUserData(username);
-    setUser(results);
+    if (query.trim()) {
+      onSearch(query);
+      setQuery('');
+    }
   };
 
   return (
-    <form onSubmit={handleSearch} className="flex items-center gap-2 mb-4">
+    <form onSubmit={handleSubmit} className="flex justify-center items-center space-x-2 mb-4">
       <input
         type="text"
-        placeholder="Enter GitHub username"
-        value={username}
-        onChange={(e) => setUsername(e.target.value)}
-        className="px-4 py-2 border border-gray-300 rounded-lg w-full max-w-md"
+        className="border p-2 rounded"
+        placeholder="Search GitHub users..."
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
       />
-      <button
-        type="submit"
-        className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700"
-      >
-        Search
-      </button>
+      <button type="submit" className="bg-blue-500 text-white p-2 rounded">Search</button>
     </form>
   );
 };
 
-export default SearchBar;
+export default Search;

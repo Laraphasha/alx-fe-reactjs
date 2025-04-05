@@ -1,29 +1,42 @@
-import { useState } from "react";
-import SearchBar from "./components/Search";
-import UserCard from "./components/UserCard";
+import React, { useState } from 'react';
+import Search from './components/Search';
+import { fetchUserData } from './services/githubService';
 
-function App() {
-  const [users, setUsers] = useState([]);
+const App = () => {
+  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
 
+  const handleSearch = async (username) => {
+    setLoading(true);
+    setError(null);
+    try {
+      const userData = await fetchUserData(username);
+      setUser(userData);
+    } catch (error) {
+      setError(error.message);
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
-    <div className="min-h-screen bg-gray-100 p-4">
-      <h1 className="text-3xl font-bold text-center mb-6 text-gray-800">
-        GitHub User Search
-      </h1>
-      <div className="flex justify-center">
-        <SearchBar setUsers={setUsers} setError={setError} />
-      </div>
-      {error && (
-        <p className="text-red-600 text-center mt-2">{error}</p>
+    <div className="container mx-auto p-4">
+      <h1 className="text-3xl font-bold text-center mb-4">GitHub User Search</h1>
+      <Search onSearch={handleSearch} />
+      {loading && <p className="text-center">Loading...</p>}
+      {error && <p className="text-center text-red-500">{error}</p>}
+      {user && !loading && !error && (
+        <div className="text-center mt-4">
+          <img src={user.avatar_url} alt={user.login} className="w-24 h-24 rounded-full mx-auto" />
+          <h2 className="text-xl font-semibold mt-2">{user.name || user.login}</h2>
+          <a href={user.html_url} className="text-blue-500" target="_blank" rel="noopener noreferrer">
+            Visit GitHub Profile
+          </a>
+        </div>
       )}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-6 max-w-6xl mx-auto">
-        {users.map((user) => (
-          <UserCard key={user.id} user={user} />
-        ))}
-      </div>
     </div>
   );
-}
+};
 
 export default App;
