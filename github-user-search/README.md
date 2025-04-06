@@ -1,20 +1,20 @@
 # Working with APIs: GitHub User Search Application
 
 ## Project Structure
-github-user-search/
-├── src/
-│   ├── components/
-│   │   └── Home.jsx
-│   ├── services/
-│   │   └── githubService.js
-│   ├── App.jsx
-│   ├── main.jsx
-├── .env
-├── eslint.config.js
-├── index.html
-├── package.json
-├── README.md
-└── vite.config.js
+* github-user-search/
+  - src/
+    - components/
+      - Home.jsx
+    - services/
+      - githubService.js
+    - App.jsx
+    - main.jsx
+  - .env
+  - eslint.config.js
+  - index.html
+  - package.json
+  - README.md
+  - vite.config.js
 
 
 ## Setting Up
@@ -32,10 +32,19 @@ github-user-search/
   ```bash
   npm install axios
   ```
+  - Install [React Router](https://reactrouter.com/start/declarative/installation) to use for routing in our app:
+  ```bash
+  npm i react-router
+  ```
 
 ### Step 3: Prepare the Application Structure
 * __Application Structure:__
   - Inside the `src` folder you should only have:
+    - `main.jsx`: The component that connects HTML page with React components.
+      - render the `<App />` component using the `BrowserRouter` element to introduce routing to the app. See [React Router installation guide](https://reactrouter.com/start/declarative/installation).
+      - Now to [configure routes](https://reactrouter.com/start/declarative/routing):
+        - The root ('/') path is going to be the `<App />` component as it is the entry(root) component.
+        - The index element for the root path (i.e. when you hit the root("/") element) will be the `<Home />` component.
     - `App.jsx`: The entry component for the application.
       - Inside the _App.jsx_ file, create a simple react component that renders the text `Hello World`. See [React Components](https://www.w3schools.com/react/react_components.asp) on how to create a simple react component.
     - `components/`: Directory that holds all our components.
