@@ -8,12 +8,15 @@
     - services/
       - githubService.js
     - App.jsx
+    - index.css
     - main.jsx
   - .env
   - eslint.config.js
   - index.html
   - package.json
+  - postcss.config.js
   - README.md
+  - tailwind.config.js
   - vite.config.js
 
 
@@ -36,6 +39,10 @@
   ```bash
   npm i react-router
   ```
+  - Install [Tailwind CSS](https://v3.tailwindcss.com/docs/guides/vite) for styling.
+  ```bash
+  npm install -D tailwindcss@3 postcss autoprefixer
+  ```
 
 ### Step 3: Prepare the Application Structure
 * __Application Structure:__
@@ -45,11 +52,12 @@
       - Now to [configure routes](https://reactrouter.com/start/declarative/routing):
         - The root ('/') path is going to be the `<App />` component as it is the entry(root) component.
         - The index element for the root path (i.e. when you hit the root("/") element) will be the `<Home />` component.
+      - Add `import './index.css';` to your `main.jsx` file to allow `@tailwind` to take effect in your main, App, and subsequent components.
     - `App.jsx`: The entry component for the application.
       - Inside the _App.jsx_ file, create a simple react component that renders the text `Hello World`. See [React Components](https://www.w3schools.com/react/react_components.asp) on how to create a simple react component.
     - `components/`: Directory that holds all our components.
       - `Search.jsx`: The main component of the app. This component will render the search bar that will be used for searching for Github users.
-        - Create a form with a
+        - Create a form with an input field and a submit button. See [HTML form input types](https://www.w3schools.com/hTml/html_form_input_types.asp).
     - `services/`: Directory for services such as API calls.
       - `githubService.js`: This is the file where the API call to the Github API is made.
         - import axios.
@@ -63,6 +71,32 @@
             - return the _response_ after the _axios_ call.
           - in the catch section:
             - For now just console log the error and return null.
+    - `index.css`: The main styling sheet for the project. Tailwind will be propagated through here.
+      - Add the `@tailwind` directives for each of Tailwind’s layers to your `./src/index.css` file.
+      ```css
+      @tailwind base;
+      @tailwind components;
+      @tailwind utilities;
+      ```
+  - `postcss.config.js`: a config file which is part of the tailwind config.
+  - `tailwind.config.js`: a cofig file for our styling framework [Tailwind CSS](https://v3.tailwindcss.com/docs/guides/create-react-app).
+    - initiate the config file by running this command:
+    ```bash
+    npx tailwindcss init -P
+    ```
+    - __Configure your template paths__: Add the paths to all of your template files in your `tailwind.config.js` file:
+    ```js
+    /** @type {import('tailwindcss').Config} */
+    export default {
+      content: [
+        "./src/**/*.{js,jsx,ts,tsx}",
+      ],
+      theme: {
+        extend: {},
+      },
+      plugins: [],
+    }
+    ```
 
 ### Step 4: Configure Environment for API Calls
 * __Environment Setup:__
