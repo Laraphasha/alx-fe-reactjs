@@ -1,9 +1,16 @@
-import React from 'react'
+import Search from './components/Search';
 
-export default function App() {
+function App() {
   return (
-    <div>
-      Hello World!
+    <div className="min-h-screen bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white">
+      <header className="text-center py-6">
+        <h1 className="text-3xl font-bold">GitHub User Search</h1>
+      </header>
+      <main>
+        <Search />
+      </main>
     </div>
-  )
+  );
 }
+
+export default App;
