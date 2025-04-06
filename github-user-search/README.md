@@ -4,7 +4,7 @@
 * github-user-search/
   - src/
     - components/
-      - Home.jsx
+      - Search.jsx
     - services/
       - githubService.js
     - App.jsx
@@ -48,7 +48,8 @@
     - `App.jsx`: The entry component for the application.
       - Inside the _App.jsx_ file, create a simple react component that renders the text `Hello World`. See [React Components](https://www.w3schools.com/react/react_components.asp) on how to create a simple react component.
     - `components/`: Directory that holds all our components.
-      - `Home.jsx`: A simple component that renders "this is a home component".
+      - `Search.jsx`: The main component of the app. This component will render the search bar that will be used for searching for Github users.
+        - Create a form with a
     - `services/`: Directory for services such as API calls.
       - `githubService.js`: This is the file where the API call to the Github API is made.
         - import axios.
@@ -70,7 +71,7 @@
     - Add environment variables `VITE_APP_GITHUB_API_KEY` to the `.env` file for a _Github_ API key in cases where it is needed. GitHub API doesn't require a token for public user search, but if you hit the rate limit, you can generate a [personal access token](https://github.com/settings/tokens) and use it.
     - <to be edited> Use `import.meta.env.VITE_APP_GITHUB_API_KEY` in your API service files.
 
-### Step 5: Initial Test Run
+### Step 5: Run
 * __Run the Application:__
   - Ensure that your setup works by running the application:
   ```bash
