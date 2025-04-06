@@ -1,5 +1,22 @@
 # Working with APIs: GitHub User Search Application
 
+## Project Structure
+github-user-search/
+├── src/
+│   ├── components/
+│   │   └── Home.jsx
+│   ├── services/
+│   │   └── githubService.js
+│   ├── App.jsx
+│   ├── main.jsx
+├── .env
+├── eslint.config.js
+├── index.html
+├── package.json
+├── README.md
+└── vite.config.js
+
+
 ## Setting Up
 ### Step 1: Create a New React Project
 * __React Project Setup:__
@@ -11,7 +28,7 @@
 
 ### Step 2: Install Necessary Packages
 * __Dependencies Installation:__
-  - Install Axios for making HTTP requests, which will be used to interact with the GitHub API:
+  - Install [Axios](https://axios-http.com/docs/intro) for making HTTP requests, which will be used to interact with the GitHub API:
   ```bash
   npm install axios
   ```
@@ -20,14 +37,28 @@
 * __Application Structure:__
   - Inside the `src` folder you should only have:
     - `App.jsx`: The entry component for the application.
+      - Inside the _App.jsx_ file, create a simple react component that renders the text `Hello World`. See [React Components](https://www.w3schools.com/react/react_components.asp) on how to create a simple react component.
     - `components/`: Directory that holds all our components.
+      - `Home.jsx`: A simple component that renders "this is a home component".
     - `services/`: Directory for services such as API calls.
+      - `githubService.js`: This is the file where the API call to the Github API is made.
+        - import axios.
+        - define the base URL = "https://api.github.com/users".
+        - create an async function _fetchGithubUser_.
+          - Use the __try-catch__ block for better error handling.
+          - in the _try_ section:
+            - use [axios.get()](https://www.educative.io/answers/how-to-make-an-axios-get-request) method to request a specific user (https://api.github.com/users/{user}).
+              - configure the headers to use Authorisation whic is assigned the environmental variable for Github token `token ${import.meta.env.VITE_APP_GITHUB_API_KEY}`.
+            - store this in a constant _response_.
+            - return the _response_ after the _axios_ call.
+          - in the catch section:
+            - For now just console log the error and return null.
 
 ### Step 4: Configure Environment for API Calls
 * __Environment Setup:__
   - Set up environment variables to store sensitive information such as API keys (if necessary for GitHub API):
     - Create a `.env` file in the root directory.
-    - Add environment variables `VITE_APP_GITHUB_API_KEY` to the `.env` file for a _Github_ API key in cases where it is needed. Usually this is not needed unless you have reached Github limits.
+    - Add environment variables `VITE_APP_GITHUB_API_KEY` to the `.env` file for a _Github_ API key in cases where it is needed. GitHub API doesn't require a token for public user search, but if you hit the rate limit, you can generate a [personal access token](https://github.com/settings/tokens) and use it.
     - <to be edited> Use `import.meta.env.VITE_APP_GITHUB_API_KEY` in your API service files.
 
 ### Step 5: Initial Test Run
